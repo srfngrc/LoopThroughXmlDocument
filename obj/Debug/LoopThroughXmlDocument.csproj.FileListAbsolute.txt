@@ -1,0 +1,15 @@
+C:\BegVCSharp\Chapter22\LoopThroughXmlDocument\bin\Debug\LoopThroughXmlDocument.exe.config
+C:\BegVCSharp\Chapter22\LoopThroughXmlDocument\bin\Debug\LoopThroughXmlDocument.exe
+C:\BegVCSharp\Chapter22\LoopThroughXmlDocument\bin\Debug\LoopThroughXmlDocument.pdb
+C:\BegVCSharp\Chapter22\LoopThroughXmlDocument\obj\Debug\LoopThroughXmlDocument.csprojAssemblyReference.cache
+C:\BegVCSharp\Chapter22\LoopThroughXmlDocument\obj\Debug\MainWindow.g.cs
+C:\BegVCSharp\Chapter22\LoopThroughXmlDocument\obj\Debug\App.g.cs
+C:\BegVCSharp\Chapter22\LoopThroughXmlDocument\obj\Debug\LoopThroughXmlDocument_MarkupCompile.cache
+C:\BegVCSharp\Chapter22\LoopThroughXmlDocument\obj\Debug\LoopThroughXmlDocument_MarkupCompile.lref
+C:\BegVCSharp\Chapter22\LoopThroughXmlDocument\obj\Debug\MainWindow.baml
+C:\BegVCSharp\Chapter22\LoopThroughXmlDocument\obj\Debug\LoopThroughXmlDocument.g.resources
+C:\BegVCSharp\Chapter22\LoopThroughXmlDocument\obj\Debug\LoopThroughXmlDocument.Properties.Resources.resources
+C:\BegVCSharp\Chapter22\LoopThroughXmlDocument\obj\Debug\LoopThroughXmlDocument.csproj.GenerateResource.cache
+C:\BegVCSharp\Chapter22\LoopThroughXmlDocument\obj\Debug\LoopThroughXmlDocument.csproj.CoreCompileInputs.cache
+C:\BegVCSharp\Chapter22\LoopThroughXmlDocument\obj\Debug\LoopThroughXmlDocument.exe
+C:\BegVCSharp\Chapter22\LoopThroughXmlDocument\obj\Debug\LoopThroughXmlDocument.pdb
