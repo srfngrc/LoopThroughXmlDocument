@@ -10,6 +10,7 @@
         <TextBlock x:Name="textBlockResults" HorizontalAlignment="Left" Margin="44,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="399" Width="634" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
         <Button x:Name="buttonLoop" Content="Loop" HorizontalAlignment="Left" Margin="693,77,0,0" VerticalAlignment="Top" Width="75" Click="ButtonLoop_Click"/>
         <Button x:Name="buttonCreateNode" Content="Create" HorizontalAlignment="Left" Margin="693,119,0,0" VerticalAlignment="Top" Width="75" Click="ButtonCreateNode_Click"/>
+        <Button x:Name="buttonDeleteNode" Content="Delete" HorizontalAlignment="Left" Margin="693,163,0,0" VerticalAlignment="Top" Width="75" Click="ButtonDeleteNode_Click"/>
 
     </Grid>
 </Window>

@@ -112,5 +112,24 @@ namespace LoopThroughXmlDocument
             root.InsertAfter(newBook, root.FirstChild);
             document.Save(booksFile);
         }
+
+        private void ButtonDeleteNode_Click(object sender, RoutedEventArgs e)
+        {
+            //Load the XML document.
+            XmlDocument document = new XmlDocument();
+            document.Load(booksFile);
+            // Get the root element.
+            XmlElement root = document.DocumentElement;
+            // Find the node. root is the <books> tag, so its last child
+            // which will be the last <book> node.
+            if (root.HasChildNodes)
+            {
+                XmlNode Lastbook = root.LastChild;
+                // Delete the child.
+                root.RemoveChild(Lastbook);
+                // Save the document back to disk.
+                document.Save(booksFile);
+            }
+        }
     }
 }
