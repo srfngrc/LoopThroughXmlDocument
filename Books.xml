@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<books>
+  <book>
+    <title>Beginning Visual C# 2012</title>
+    <author>Karli Watson</author>
+    <code>7582</code>
+  </book>
+  <book>
+    <!--The previous edition-->
+    <title>Beginning Visual C# 2010</title>
+    <author>Karli Watson et al7</author>
+    <code>1234567890</code>
+  </book>
+  <book>
+    <!--The previous edition-->
+    <title>Beginning Visual C# 2010</title>
+    <author>Karli Watson et al</author>
+    <code>1234567890</code>
+  </book>
+  <book>
+    <!--The previous edition-->
+    <title>Beginning Visual C# 2010</title>
+    <author>Karli Watson et al</author>
+    <code>1234567890</code>
+  </book>
+  <book>
+    <title>Professional C# 2012</title>
+    <author>Simon Robinson</author>
+    <code>7043</code>
+  </book>
+</books>

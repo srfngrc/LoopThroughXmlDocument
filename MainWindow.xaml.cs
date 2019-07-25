@@ -21,7 +21,8 @@ namespace LoopThroughXmlDocument
     /// </summary>
     public partial class MainWindow : Window
     {
-        private const string booksFile = @"C:\BegVCSharp\BOOKS.xml";
+        //private const string booksFile = @"C:\BegVCSharp\BOOKS.xml";
+        private const string booksFile = @"C:\VSRepositories\LoopThroughXmlDocument\BOOKS.xml";
         public MainWindow()
         {
             InitializeComponent();
@@ -82,6 +83,34 @@ namespace LoopThroughXmlDocument
                 text += " " + xa.Name + "='" + xa.Value + "'";
                 //value xmlAttributes
             }
+        }
+
+        private void ButtonCreateNode_Click(object sender, RoutedEventArgs e)
+        {
+            // Load the XML document.
+            XmlDocument document = new XmlDocument();
+            document.Load(booksFile);
+            // Get the root element.
+            XmlElement root = document.DocumentElement;
+            // Create the new nodes.
+            XmlElement newBook = document.CreateElement("book");
+            XmlElement newTitle = document.CreateElement("title");
+            XmlElement newAuthor = document.CreateElement("author");
+            XmlElement newCode = document.CreateElement("code");
+            XmlText title = document.CreateTextNode("Beginning Visual C# 2010");
+            XmlText author = document.CreateTextNode("Karli Watson et al7");
+            XmlText code = document.CreateTextNode("1234567890");
+            XmlComment comment = document.CreateComment("The previous edition");
+            // Insert the elements.
+            newBook.AppendChild(comment);
+            newBook.AppendChild(newTitle);
+            newBook.AppendChild(newAuthor);
+            newBook.AppendChild(newCode);
+            newTitle.AppendChild(title);
+            newAuthor.AppendChild(author);
+            newCode.AppendChild(code);
+            root.InsertAfter(newBook, root.FirstChild);
+            document.Save(booksFile);
         }
     }
 }
